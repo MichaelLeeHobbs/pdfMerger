@@ -18,7 +18,8 @@
     "pdfm": "./src/index.js"
   },
   "scripts": {
-    "test": "node ./src/index.js --output test --files ./test/testfiles.pdfm"
+    "test": "node ./src/index.js --output test --files ./test/testfiles.pdfm",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "md5": "^2.2.1"
