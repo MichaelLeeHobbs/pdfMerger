@@ -1,6 +1,6 @@
 {
   "name": "pdfm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple pdf merger",
   "main": "src/index.js",
   "repository": "https://github.com/MichaelLeeHobbs/pdfMerger.git",
@@ -18,8 +18,7 @@
     "pdfm": "./src/index.js"
   },
   "scripts": {
-    "test": "node ./src/index.js --output test --files ./test/testfiles.pdfm",
-    "publish": "npm publish --access public"
+    "test": "node ./src/index.js --output test --files ./test/testfiles.pdfm"
   },
   "devDependencies": {
     "md5": "^2.2.1"
