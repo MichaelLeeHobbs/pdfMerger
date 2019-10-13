@@ -21,6 +21,10 @@
 ## Notes
 1. pdfm will copy files to the systems temp folder before attempting to call pdftk to merge the files. This is to avoid issues seen in pdftk when attempting to access files on a network store. pdfm should remove these files after completion but in the event of an unhandle error occurs files could be left in the systems temp folder.
 
+## Changes
+### 1.0.4
+1. Fixed bug where pdfm was not using the temporary files as expected
+
 ## Future
 1. Support linux without having to use --bin option
 1. Fix test

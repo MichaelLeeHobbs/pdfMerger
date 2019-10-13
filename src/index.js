@@ -72,7 +72,7 @@ if (!fatal) {
 
     console.log(`Merging input files into: ${`${output}-${moment().format(dateFormat)}.pdf`}`)
     pdftk
-        .input(files)
+        .input(tempFiles)
         .cat()
         .output(`${output}-${moment().format(dateFormat)}.pdf`)
         .then(()=>cleanUp(tempFolder))
