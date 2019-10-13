@@ -23,4 +23,5 @@
 
 ## Future
 1. Support linux without having to use --bin option
+1. Fix test
 1. _Maybe if I have time._ Daemon process to watch pdf files for changes then run a merge.
