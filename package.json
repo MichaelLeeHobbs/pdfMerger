@@ -1,6 +1,6 @@
 {
   "name": "pdfm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple pdf merger",
   "main": "src/index.js",
   "repository": "https://github.com/MichaelLeeHobbs/pdfMerger.git",
